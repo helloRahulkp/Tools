@@ -1,4 +1,5 @@
 import re
+import pandas
 
 def clean_to_int(x):
     if isinstance(x, bytes):
